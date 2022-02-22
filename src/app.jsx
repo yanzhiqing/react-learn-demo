@@ -2,7 +2,8 @@ import React, { Component } from "react";
 // import Home from "./Home"
 // import MyNav from "./MyNav";
 // import StateCompoenent from "./StateComponent";
-import ComponentLife from "./ComponentLife";
+// import ComponentLife from "./ComponentLife";
+import SetStateDemo from "./setStateDemo";
 
 // 用类的形式创建组件，Hook形式
 class App extends React.Component{
@@ -33,8 +34,11 @@ class App extends React.Component{
 
         {/* <StateCompoenent/> */}
 
-        <ComponentLife title={this.state.title} clickChanges={this.clickChange}></ComponentLife>
+        {/* <ComponentLife title={this.state.title} clickChanges={this.clickChange}></ComponentLife> */}
         {/* <button onClick={this.clickChange.bind(this)}>修改title</button> */}
+        
+        <SetStateDemo/>
+        
       </div>
     )
     
