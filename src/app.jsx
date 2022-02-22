@@ -4,7 +4,8 @@ import React, { Component } from "react";
 // import StateCompoenent from "./StateComponent";
 // import ComponentLife from "./ComponentLife";
 // import SetStateDemo from "./setStateDemo";
-import IfDemo from "./ifDemo";
+// import IfDemo from "./ifDemo";
+import KeyDemo from "./KeyDemo";
 
 // 用类的形式创建组件，Hook形式
 class App extends React.Component{
@@ -40,7 +41,9 @@ class App extends React.Component{
         
         {/* <SetStateDemo/> */}
         
-        <IfDemo/>
+        {/* <IfDemo/> */}
+
+        <KeyDemo/>
       </div>
     )
     
