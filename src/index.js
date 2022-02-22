@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './app';
-import Home from "./Home"
+
 
 // 全家桶
 
@@ -20,7 +20,4 @@ import Home from "./Home"
 // }
 // setInterval(tick, 1000);
 
-ReactDOM.render((<div>
-  <App/>
-  <Home/>
-</div> ), document.getElementById('root'));
+ReactDOM.render( <App/> , document.getElementById('root'));
