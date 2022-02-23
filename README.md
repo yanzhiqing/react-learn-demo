@@ -56,5 +56,8 @@ JSX语法：JavaScript+XML语法（HTML）
 ## 状态提升
 组件只见的数据交互
 
+## 组合 vs 继承
+this.props.children 类似vue中的slot
+
 
 
