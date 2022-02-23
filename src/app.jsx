@@ -5,8 +5,10 @@ import React, { Component } from "react";
 // import ComponentLife from "./ComponentLife";
 // import SetStateDemo from "./setStateDemo";
 // import IfDemo from "./ifDemo";
-import KeyDemo from "./KeyDemo";
-
+// import KeyDemo from "./KeyDemo";
+import FormDemo from "./FormDemo";
+// import RefsAndDOM from "./RefsAndDOM";
+import RefsForm from "./RefsForm";
 // 用类的形式创建组件，Hook形式
 class App extends React.Component{
   constructor(){
@@ -43,7 +45,14 @@ class App extends React.Component{
         
         {/* <IfDemo/> */}
 
-        <KeyDemo/>
+        {/* <KeyDemo/> */}
+
+        <FormDemo/>
+
+        {/* <RefsAndDOM/> */}
+
+        <RefsForm/>
+
       </div>
     )
     
