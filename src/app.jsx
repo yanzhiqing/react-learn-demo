@@ -10,7 +10,8 @@ import React, { Component } from "react";
 // import RefsAndDOM from "./RefsAndDOM";
 // import RefsForm from "./RefsForm";
 // import Parent from "./components/parent";
-import Compose from "./compose";
+// import Compose from "./compose";
+import PropTypesDemo from "./PropTypesDemo";
 
 // 用类的形式创建组件，Hook形式
 class App extends React.Component{
@@ -58,10 +59,12 @@ class App extends React.Component{
 
         {/* <Parent/> */}
 
-        <Compose>
+        {/* <Compose>
           <div>我是组合效果</div>
-        </Compose>
+        </Compose> */}
 
+        <PropTypesDemo title="标题"/>
+        
       </div>
     )
     

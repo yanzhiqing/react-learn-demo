@@ -59,5 +59,8 @@ JSX语法：JavaScript+XML语法（HTML）
 ## 组合 vs 继承
 this.props.children 类似vue中的slot
 
+## 使用PropTypes 运行类型检查
+增强程序的健壮性
+
 
 
